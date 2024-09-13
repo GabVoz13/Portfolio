@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Heading>TWENTY-SECOND DAY.</Heading>
+    <Date>August 31, 1858.</Date>
+
+    <Letter L="01">Valentia to Newfoundland. <Content>Sent 1.30 P.M.—“Can you read? We have two
+            Government messages. Will you take? Reply direct.”</Content></Letter>
+
+    <Letter L="02">Newfoundland to Valentia. <Content>Sent 1.37 P.M.—“Try, but
+        send.”</Content></Letter>
+
+    <Letter L="03">Valentia to Newfoundland. <Content>Sent 3.41 P.M.—“The Military Secretary to
+            Commander-in-Chief, Horse Guards, London. To General Trollope, Halifax, Nova Scotia:—
+            The Sixty-second Regiment is not to return to England.”</Content></Letter>
+
+    <Gov_Notice GV="01">[This message and that which will be found further on in regard to the
+        Thirty-ninth Regiment, saved to the British Government the sum of fifty thousand pounds
+        (250,000 dollars), by avoiding the shipment and transportation of troops.]</Gov_Notice>
+
+    <Letter L="04">Newfoundland to Valentia. <Content>Sent—“This received:—The Military Secretary to
+            Commander-in-Chief, Horse Guards, London.” Sent—“‘Trollope,’ understand. Go on after
+            Scotia.” Sent—“Is it finished after ‘England?’ ”</Content></Letter>
+
+    <Letter L="05">Valentia to Newfoundland. <Content>Sent 4 P.M.—“Yes. Now take another. Are you
+            ready?”</Content></Letter>
+
+    <Letter L="06">Newfoundland to Valentia. <Content>Sent 4.5 P.M.—“Yes, send.”</Content></Letter>
+
+    <Letter L="07">Valentia to Newfoundland. <Content>Sent 9.3 P.M.—“The Military Secretary to
+            Commander-in-Chief, Horse Guards, to General Officer commanding, Montreal, Canada:—The
+            Thirty-ninth Regiment is not to return to England.”</Content></Letter>
+
+    <Letter L="08">Newfoundland to Valentia. <Content>Sent—“I want you to repeat
+            ‘Canada.’”</Content></Letter>
+
+    <Letter L="09">Valentia to Newfoundland. <Content>Sent 10.5 P.M.—“Can’t read.
+            Try‘Daniel’s.”</Content></Letter>
+
+    <Letter L="10">Newfoundland to Valentia. <Content>Sent 12 P.M.—“Repeat from ‘Canada’ to
+            ‘return.’”</Content></Letter>
+</Root>
