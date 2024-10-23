@@ -1,0 +1,118 @@
+
+/* Nav bar Section */
+body {background: #82896E;}
+
+nav ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8A6240;}
+li {float:left;}
+li a {
+  display: block;
+  color: #CABA9C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #7B4B36;}
+
+section.flex {display:flex;}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #82896E;
+  color: #333;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.header p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Section Titles */
+section h2 {
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+/* Experience and Projects */
+.job, .involvement {
+  margin-bottom: 20px;
+}
+
+.job h3, .involvement h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  margin-right: 10px;
+  background-color: #582F0E;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #582F0E;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+}

@@ -1,0 +1,150 @@
+/* Nav bar Section */
+body {background: #82896E;}
+
+nav ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8A6240;}
+li {float:left;}
+
+li a {
+  display: block;
+  color: #CABA9C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #82896E;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Welcome Section */
+.welcome-section {
+    position: relative;
+    height: 100vh;
+    background: #82896E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.welcome-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.welcome-section h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.welcome-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #CABA9C;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+.cta-button:hover {
+    background-color: #8A6240;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Feature Section */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #A4AC86;
+}
+
+.feature-item {
+    background-color: #414833;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.feature-item i {
+    font-size: 50px;
+    color: #C2C5AA;
+    margin-bottom: 20px;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feature-item h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #C2C5AA;
+}
+
+/* Footer */
+.footer {
+    background-color: #582F0E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 14px;
+    flex: 1;
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .welcome-section h1 {
+        font-size: 48px;
+    }
+
+    .feature-item {
+        padding: 30px;
+    }
+}
+

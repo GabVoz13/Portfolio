@@ -1,0 +1,147 @@
+
+/* Nav bar Section */
+body {background: #82896E;}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8A6240;}
+li {float:left;}
+li a {
+  display: block;
+  color: #CABA9C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #7B4B36;}
+
+section.flex {display:flex;}
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #82896E;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 80px 20px;
+    background-color: #82896E;
+    text-align: center;
+}
+
+.projects-header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.projects-header p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #333D29;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.project-info h6 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.project-info p {
+    font-size: 16px;
+    color: White;
+    margin-bottom: 20px;
+}
+
+.project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8A6240;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+    background-color: #CABA9C;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .projects-header h1 {
+        font-size: 36px;
+    }
+
+    .project-info h2 {
+        font-size: 20px;
+    }
+
+    .project-button {
+        font-size: 14px;
+    }
+}
+
+
+/* Footer */
+.footer {
+    background-color: #582F0E;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+            
