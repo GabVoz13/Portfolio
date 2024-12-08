@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--The author of numerous collections of poetry, Adrienne Rich wrote poems examining such things as women's role in society, racism, politics, and war.-->
+
+<Poem>
+    <Title>Twenty-One Love Poems [Poem II]</Title>
+    <Author>Adrienne Rich <DOB_DOD>1929 –2012</DOB_DOD></Author>
+
+   <Tags> Occasions <Occasion Oc="1">Anniversary</Occasion>
+        <Occasion Oc="2">LGBTQ+ Pride Month</Occasion>
+        <Occasion Oc="3">Weddings</Occasion></Tags>
+
+    <PL Line="1">I wake up in your bed. I know I have been dreaming.</PL>
+    <PL Line="2">Much earlier, the alarm broke us from each other,</PL>
+    <PL Line="3">you’ve been at your desk for hours. I know what I dreamed:</PL>
+    <PL Line="4">our friend the poet comes into my room</PL>
+    <PL Line="5">where I’ve been writing for days,</PL>
+    <PL Line="6">drafts, carbons, poems are scattered everywhere,</PL>
+    <PL Line="7">and I want to show her one poem</PL>
+    <PL Line="8">which is the poem of my life. But I hesitate,</PL>
+    <PL Line="9">and wake. You’ve kissed my hair</PL>
+    <PL Line="10">to wake me. I dreamed you were a poem,</PL>
+    <PL Line="11">I say, a poem I wanted to show someone . . .</PL>
+    <PL Line="12">and I laugh and fall dreaming again</PL>
+    <PL Line="13">of the desire to show you to everyone I love,</PL>
+    <PL Line="14">to move openly together</PL>
+    <PL Line="15">in the pull of gravity, which is not simple,</PL>
+    <PL Line="16">which carries the feathered grass a long way down the upbreathing air.</PL>
+</Poem>
+<!--This poem makes me think of her-->

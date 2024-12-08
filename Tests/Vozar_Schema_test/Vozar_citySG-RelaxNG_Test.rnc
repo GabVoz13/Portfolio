@@ -1,0 +1,54 @@
+# DIGIT 110 RELAX NG TEST INSTRUCTIONS:  
+# * Save these test files according to our standard file naming conventions for Canvas submissions.
+# * Make the schema well-formed and document with  # comments where you made change(s). 
+# * Then, associate the schema with the XML file we have provided for the exam.
+# * Next, correct the schema code so that it validates the XML (happy green oXygen for both documents) and document briefly with # comments what you changed and why.
+#  **NOTE**: DO NOT CHANGE the markup in the XML file, except to add your schema line!
+#
+# TIPS: 
+# There are 13 critical errors in this Relax-NG schema that will make oXygen's error-checking box RED. Only a few of them will appear at first in the Relax NG. 
+# More will be revealed when you associate the schema with the XML file.
+# Your goal is to correct each of these errors.
+# When attribute values in the XML represent a datatype, apply a datatype in this schema for full credit. 
+
+# First, correct the schema file so it "turns green" in oXygen and write a comment to document each correction.
+# Then, associate your corrected  schema with the XML (and remove the original schema line). 
+# At that point the other validation errors will become evident in the XML file.)
+# Remember to split your oXygen screen (Window -> Tile Editors Vertically), and carefully examine the XML to see how 
+# the elements are written. 
+# DO NOT CHANGE THE MARKUP IN THE XML FILE. Make ALL corrections in the Relax NG Schema to make the XML valid according to the schema.
+# Save the schema and use the red checkmark in oXygen to check the validation as you go.
+#
+# **NOTE**: Because this is an exam, you are expected to complete this assignment _individually_ 
+# without discussion or help from other students. Any such collaboration will be considered to be plagiarism under the penalties stated on the syllabus.
+# *  GITHUB: While you may ask basic questions on the class Slack, GitHub or by email, the instructor's responses will
+# be correspondingly minimal: that is, I will not be telling you the complete answers. Similarly, for any
+# questions about take-home exams on GitHub, students _must not_ reply to each other.
+#
+# SUBMITTING YOUR EXAM:
+# When you are finished, upload BOTH the schema and the XML file to Canvas using the posted upload point for this exam. 
+# You may zip the files to submit them just as you have done for homework assignments.
+start = article
+article = element article {mixed{ (head | body)*}} #11GV:fixed mixed content to allow head and body
+head = element head {titleLine, headLine+} #4GV: defined headline and allowed headLine to have multiples
+headLine = element headLine {n+, mixed{ (newspaper | money | shift)* } } #5GV: defined headLine and added container elements and attribute with mixed content
+titleLine = element titleLine {mixed{(newspaper, date), num?, series?}} #GV15:added series into mixed content
+shift = element shift {dur, text} #6GV:defined shift & added containers
+dur = attribute dur {text} #7GV: defined dur
+money = element money {amount, unit, text} #8GV:defined money
+unit = attribute unit {text} #9GV:defined unit
+newspaper = element newspaper {text} #14GV:removed "empty" and added "text"
+date = element date {when, text} #3GV: had to define when
+when = attribute when {xsd:date | xsd:gYearMonth |xsd:gYear} #4GV: definition of when
+num = element num {amount, text}
+amount = attribute amount {xsd:double} #1GV: allows the USD amount as a decimal
+series = element series {text}
+n = attribute n {xsd:integer} #2GV: added integar to specify the number
+body = element body {p+} #12GV: added "+" to allow multiples
+p = element p {mixed {(company | address | description)*}} #13:added "mixed" and removed "text"
+company = element company {text}
+address = element address {type, text}
+type = attribute type {"exact" | "general"} #10GV:removed coma, added straight bracket
+description = element description {mixed{(company|address)*}}
+
+
