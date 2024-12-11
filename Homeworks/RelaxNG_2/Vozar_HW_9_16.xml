@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Vozar_HW_Schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Text_Piece>
     <Transcript_Sent_Recieved TSR="1"><Sender N="NS1">Newfoundland</Sender> to <Reciever V="VR1"
             >Valentia.</Reciever>
@@ -25,7 +26,7 @@
     <Transcript_Sent_Recieved TSR="5"><Sender N="NS3">Newfoundland</Sender> to <Reciever V="VR3"
             >Valentia.</Reciever>
         <Message>“ How do you receive now?”</Message></Transcript_Sent_Recieved>
-    <Transcript_Sent_Recieved TSR="6"><Sender v="VS3">Valentia</Sender> to <Reciever N="NR3"
+    <Transcript_Sent_Recieved TSR="6"><Sender V="VS3">Valentia</Sender> to <Reciever N="NR3"
             >Newfoundland.</Reciever>
         <Message>“Splendid on Thomson’s galvanometer, and print on Morse key. How do
         you?”</Message></Transcript_Sent_Recieved>
@@ -45,7 +46,7 @@
             throughout the world. May the success which has crowned our labors secure to the nations
             of the earth a perpetual bond of peace and good fellowship. “PETER COOPER,
             President.”</Message></Transcript_Sent_Recieved>
-    <Transcript_Sent_Recieved TSR="11"><Sender v="VS5">Valentia</Sender> to <Reciever N="NR5"
+    <Transcript_Sent_Recieved TSR="11"><Sender V="VS5">Valentia</Sender> to <Reciever N="NR5"
             >Newfoundland.</Reciever>
         <Message>“Directors all right.”</Message></Transcript_Sent_Recieved>
     <Transcript_Sent_Recieved TSR="12"><Sender N="NS6">Newfoundland</Sender> to <Reciever V="VR6"
@@ -64,7 +65,7 @@
         <Message>“To Whitehouse:—Please send out a large circular galvanometer and another relay or
             two as soon as possible. “DE SAUTY.” “If you have anything, go
         on.”</Message></Transcript_Sent_Recieved>
-    <Transcript_Sent_Recieved TSR="15"><Sender V="VS7">Valentia</Sender> to <Reciever R="NR7"
+    <Transcript_Sent_Recieved TSR="15"><Sender V="VS7">Valentia</Sender> to <Reciever N="NR7"
             >Newfoundland.</Reciever>
         <Message>“Bartholomew to De Sauty:—Whitehouse in London. Your message about galvanometer
             gone there.”</Message></Transcript_Sent_Recieved>
@@ -81,7 +82,7 @@
             >Valentia.</Reciever>
         <Message>“Saward:—Two cable-splicers and gutta-percha jointer here waiting to make a splice
             in shore-end. All well. “DE SAUTY.”</Message></Transcript_Sent_Recieved>
-    <Transcript_Sent_Recieved><Sender V="VS8">Valentia</Sender> to <Reciever N="NR8"
+    <Transcript_Sent_Recieved TSR="18"><Sender V="VS8">Valentia</Sender> to <Reciever N="NR8"
             >Newfoundland</Reciever>
         <Message>“We will send coil currents. Say if you will receive.”</Message>
     </Transcript_Sent_Recieved>. <Transcript_Sent_Recieved TSR="18"><Sender N="NS10"
@@ -120,7 +121,4 @@
             >Valentia.</Reciever>
         <Message>“Mosquitoes keep biting. This is a funny place to live in,—fearfully swampy.” All
             messages cleared out again from both stations.</Message></Transcript_Sent_Recieved>
-    <Next_Day><DATE D="INCORRECT_FORMAT">August 21.</DATE>
-        <!-- GV:2- On the website this should be bold and in a larger font size. This error makes it hard to differentiate from the previous day-->
-    </Next_Day>
 </Text_Piece>
